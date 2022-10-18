@@ -18,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::resource("/education", EducationController::class);
 Route::resource("/project", ProjectController::class);
 
+// Route::get('/education', function () {
+//     return view("education.index");
+// });
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });

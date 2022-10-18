@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+body {
+    background-color: #e8ebf5;
+}
+
+.navbar-bg {
+    background-color: #e8ebf5;
+}
+
+.active {
+    font-weight: bold !important;
+    color: #E03168 !important;
+}
+
+
+.container-fluid {
+    margin: auto 50px;
+    margin-top: 10px;
+}
+
+.container-fluid ul li a {
+    transition: .3s;
+}
+
+.container-fluid ul li a:hover {
+    color: #E03168 !important;
+    transform: scale(1.1);
+}
+
+.container-fluid .navbar-brand {
+    margin-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.sign a {
+    margin-right: 20px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sign a:hover {
+    background-color: #E03168;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand i {
+    color: #E03168;
+}
+
+.nav-link {
+    color: #60636E !important;
+    letter-spacing: 0.2px;
+}
+
+.medium1 {
+    font-weight: 900;
+}
+
+.medium2 {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #06bfad;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: #e03168;
+    color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+img {
+    width: 70%;
+}
+
+.gambar {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        position: absolute;
+        margin-top: 40px;
+        top: 0;
+        display: block;
+        width: 500px;
+    }
+
+    .col1 {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        position: absolute;
+        margin-top: 40px;
+        top: 0;
+        display: block;
+        width: 500px;
+    }
+
+    .col1 {
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .img {
+        z-index: -1;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img {
+        z-index: -1;
+        width: 500px;
+    }
+}
